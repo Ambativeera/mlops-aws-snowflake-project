@@ -1,0 +1,20 @@
+{
+  "feature_names": [
+    "num__tenure",
+    "num__monthly_charges",
+    "num__support_tickets",
+    "cat__contract_type_Month-to-month",
+    "cat__contract_type_One year",
+    "cat__contract_type_Two year"
+  ],
+  "coefficients": [
+    -0.13727395670547266,
+    0.27423772599335644,
+    0.021240576615545632,
+    0.00934352950928914,
+    -0.007094671494472468,
+    -0.0022543430798191264
+  ],
+  "intercept": -17.595706654642925,
+  "model_version": "v1"
+}
