@@ -52,6 +52,9 @@ Snowflake `customer_features` → local Python pipeline → predictions written 
 ### 2. AWS Lambda Inference
 Input payload → AWS Lambda → model config loaded from S3 → prediction response returned
 
+## Screenshot
+![Prediction Output](prediction_output.png)
+
 ## Known Limitation
 Direct Snowflake connectivity inside AWS Lambda was not finalized in this version because the Snowflake connector package built on Windows was not compatible with the Linux Lambda runtime. To keep the deployment lightweight and functional, Snowflake integration is handled through a Python batch pipeline outside Lambda.
 
