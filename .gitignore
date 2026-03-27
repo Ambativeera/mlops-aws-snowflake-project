@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+lambda_package/
+*.zip
+response.json
+event.json
+empty_event.json
